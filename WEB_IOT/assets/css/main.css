@@ -1,0 +1,285 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* background-color: rgb(245 245 245); */
+}
+#maunen{
+  background-color: rgb(211 227 253);
+}
+.header{
+    height: 100px;
+    margin: 0;
+}
+.header_navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.header_navbar--list{
+    display: inline-block;
+    padding-left: 0;
+}
+.header_navbar--image{
+    width: 100px;
+    height: auto;
+}
+.header_title{
+    text-align: center;
+}
+/* ------------------------------------------------- */
+.title{
+    text-align: center;
+    padding: 0;
+}
+/* ------------------------------------------- */
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.container_box{
+    width: 30%;
+    height: 420px;
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 0 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+  /* ---------box 1------------------ */
+
+.box_item0{
+    flex: 1;
+}
+.box_item{
+    display: flex;
+    flex-direction: column;
+    flex: 5;
+}
+.item{
+    display: flex;
+    height: 50px;
+    /* background-color: brown; */
+    border-radius: 10px;
+    margin: 10px 0;
+    justify-content: right;
+}
+/* ---------Light------------------- */
+.light{
+    text-align: left;
+    margin: 13px 0px 0 20px;
+}
+/* --------button toggel1--------- */
+.toggle {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    margin-top: 8.5px;
+    margin-right: 10px;
+    background-color: transparent;
+  }
+  
+  .toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.2s;
+    border-radius: 34px;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: 0.2s;
+    border-radius: 50%;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(26px);
+  }
+  /* -------anh den1----------- */
+  .d1{
+    flex: 3;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    background-color: transparent;
+  }
+  .d1 img{
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    background-color: transparent;
+  }
+  .lightname{
+    text-align: center;
+    background-color: transparent;
+  }
+  /* box2------------ */
+  .main_control{
+    display: flex;
+  }
+  .img_alarm img{
+    height: 100px;
+    width: 100px;
+  }
+  .box_alarm{
+    display: flex;
+    /* background-color: transparent; */
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  .button_alarm{
+    align-items: center;
+    /* background-color: transparent; */
+  }
+  .onsecutity{
+    margin-top: 33px;
+  }
+  .box_item1 {
+    flex: 1.5;
+    background-color: #f6f6f8;
+    align-items: center;
+    border-radius: 20px;
+    text-align: center;
+  }
+  .gas_img img{
+    height: 120px;
+    width: 120px;
+    margin-top: 20px;
+  }
+  .box_item2 {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    height: 260px;
+    background-color: #f6f6f8;
+  }
+  
+  /* Style the inner boxes */
+  .box_item21,
+  .box_item22 {
+    flex: 1;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #f6f6f8;
+  }
+  .door_img img{
+    height: 80px;
+    width: 80px;
+  }
+  .lamp_img img{
+    height: 80px;
+    width: 80px;
+  }
+  /* ------------box3---- */
+.container_box3{
+  display: flex;
+  background-color: #fff;
+}
+  .weather-widget {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    justify-content: space-between;
+    padding: 10px;
+    height: 100px;
+    border-radius: 20px;
+  }
+  .nhietdo{
+    display: flex;
+    align-items: center;
+  }
+  .doam{
+    display: flex;
+    align-items: center;
+  }
+  .nhietdo img{
+    width: auto;
+    height: 80px;
+    margin-right: 5px;
+    background-color: transparent;
+  }
+  .doam img{
+    width: auto;
+    height: 80px;
+    margin-right: 25px;
+    background-color: transparent;
+  }
+  .temperature,
+  .humidity {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 30px;
+  }
+  
+  #value1 {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  #value2 {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .unit {
+    font-size: 30px;
+  }
+  /* -------------quạt------------ */
+  .box3{
+    display: flex;
+    justify-content: space-between;
+  }
+  .box3_item{
+    display: flex;
+    flex-direction: column;
+    background-color: #d3eff4;
+    align-items: center;
+    border-radius: 20px;
+    margin: 0px 40px;
+  }
+  .box3_item img{
+    height: 150px;
+    width: 150px;
+  }
+  .box3_tanggiam{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+  }
+  .tanggiam{
+    height: 30px;
+    width: 30px;
+    margin: 0 20px;
+  }
+  .toggle1{
+    margin-top: 41px;
+  }
+  .nutcongtru img{
+    height: 20px;
+    width: 20px;
+    margin: 3px 0 4px 0;
+  }

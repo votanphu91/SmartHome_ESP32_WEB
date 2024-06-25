@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huynh_vipro</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <script src="hello.js"></script>
+</head>
+<body id="maunen">
+    <div class="smarthome">
+        <header class="header">
+            <div class="header_navbar">
+                <ul class="header_navbar--list">
+                    <img src="image/lgtruong.png" alt=""class="header_navbar--image">
+                </ul>
+                <ul class="header_navbar--list">
+                    <h1 class="header_title">THE UNIVERSITY OF SECIENCE AND TECHNOLOGY</br>FACULITY OF MECHANICAL ENGINEERING</h1>
+                </ul>
+                <ul class="header_navbar--list">
+                    <img src="image/lgkhoa.jpg" alt="" class="header_navbar--image">
+                </ul>
+            </div>
+
+        </header>
+        <div class="title"><h1>INTERET OF THING SMART HOME</h1></div>
+        <div class="container">
+            <div class="container_box">
+                <div class="box_item0">
+                    <h1 class="light">Light</h1>
+                </div>
+                <div class="box_item">
+                    <div class="item">
+                        <div class="d1">
+                            <img src="image/light_off.png" alt="" id="light_image1">
+                            <h2 class="lightname">phòng khách</h2>
+                        </div>
+                        <label class="toggle">
+                            <input onclick="changeImage1()" type="checkbox" id="toggle_button1">
+                            <span class="slider"></span>
+                        </label>
+                    </div>
+                    <div class="item">
+                        <div class="d1">
+                            <img src="image/light_off.png" alt="" id="light_image2">
+                            <h2 class="lightname">phòng ngủ</h2>
+                        </div>
+                        <label class="toggle">
+                            <input onclick="changeImage2()" type="checkbox">
+                            <span class="slider"></span>
+                        </label>
+                    </div>
+                    <div class="item">
+                        <div class="d1">
+                            <img src="image/light_off.png" alt="" id="light_image3">
+                            <h2 class="lightname">phòng tắm</h2>
+                        </div>
+                        <label class="toggle">
+                            <input onclick="changeImage3()" type="checkbox">
+                            <span class="slider"></span>
+                        </label>
+                    </div>
+                    <div class="item">
+                        <div class="d1">
+                            <img src="image/light_off.png" alt="" id="light_image4">
+                            <h2 class="lightname">phòng thờ</h2>
+                        </div>
+                        <label class="toggle">
+                            <input onclick="changeImage4()" type="checkbox">
+                            <span class="slider"></span>
+                        </label>
+                    </div>
+                    <div class="item">
+                        <div class="d1">
+                            <img src="image/light_off.png" alt="" id="light_image5">
+                            <h2 class="lightname">phòng bếp</h2>
+                        </div>
+                        <label class="toggle">
+                            <input onclick="changeImage5()" type="checkbox">
+                            <span class="slider"></span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="container_box">
+                <div class="box_item20">
+                    <h1 class="body_headertitle">Sercurity</h1>
+                </div>
+                <div class="box_alarm">
+                    <div class="img_alarm">
+                        <img src="image/alarmOFF.png" alt="" id="image_robber">
+                    </div>
+                    <div class="button_alarm">
+                        <label class="toggle onsecutity">
+                            <input onclick="changeImage8()" type="checkbox">
+                            <span class="slider"></span>
+                        </label>
+                    </div>
+                </div>
+                <div class="main_control">
+                    <div class="box_item1">
+                        <div class="gas_title">Gas Sensor</div>
+                        <div class="gas_img">
+                            <img src="image/FireOff.png" alt="" id="image_gas">
+                        </div>
+                    </div>
+                    <div class="box_item2">
+                        <div class="box_item21">
+                            <div class="door_title">State Door</div>
+                            <div class="door_img">
+                                <img src="image/icons8-door-closed.png" alt="" id="image_door">
+                            </div>
+                        </div>
+                        <div class="box_item22">
+                            <div class="lamp_title">State Lamp</div>
+                            <div class="lamp_img">
+                                <img src="image/light_off.png" alt="" id="image_lamp">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container_box container_box3">
+                <div><h1 class="light">Temperatuer & Humidity</h1></div>
+                <div class="weather-widget">
+                    <div class="nhietdo">
+                        <img src="image/sun.png" alt="">
+                        <div class="temperature">
+                            <span id="value1">25</span>
+                            <span class="unit">°C</span>
+                        </div>
+                    </div>
+                    <div class="doam">
+                        <img src="image/humidity.png" alt="">
+                        <div class="humidity">
+                            <span id="value2">60</span>
+                            <span class="unit">%</span>
+                          </div>
+                    </div>
+                    
+                </div>
+                <div class="box3">
+                    <div class="box3_item">
+                        <img src="image/qq_off.png" alt="" id="quat">
+                        <label class="toggle toggle1">
+                            <input onclick="changeImage6()" type="checkbox">
+                            <span class="slider"></span>
+                        </label>
+                    </div>
+                    <div class="box3_item">
+                        <div class="box3_tanggiam">
+                            <img src="image/dieuhoa_off.png" alt="" id="dieuhoa">
+                            <div class="nutcongtru">
+                                <button onclick="cong()" class="tanggiam">
+                                    <img src="image/cong.png" alt="">
+                                </button>
+                                <button onclick="tru()" class="tanggiam">
+                                    <img src="image/tru.png" alt="">
+                                </button>
+                            </div>
+                        </div>
+                        <label class="toggle">
+                            <input onclick="changeImage7()" type="checkbox">
+                            <span class="slider"></span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <footer class="footer"></footer>
+    </div>
+<script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-database.js"></script>
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-analytics.js"></script>
+<script type="module">
+        const firebaseConfig = {
+          apiKey: "AIzaSyByOuwXWnp_69kLjhFPMi71LQa60gKXaE0",
+          authDomain: "smarthome-88f4f.firebaseapp.com",
+          databaseURL: "https://smarthome-88f4f-default-rtdb.asia-southeast1.firebasedatabase.app",
+          projectId: "smarthome-88f4f",
+          storageBucket: "smarthome-88f4f.appspot.com",
+          messagingSenderId: "38447789056",
+          appId: "1:38447789056:web:53a4dc442aab471f9054e5"
+        };
+      
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+  
+  //functions
+  // make sure that the name in ' ' match with name of your database child
+  var nhietDo = document.getElementById('value1');
+  var dbRef = firebase.database().ref().child('T');
+  var doAm = document.getElementById('value2');
+  var dbRef2 = firebase.database().ref().child('H');
+  dbRef.on('value', snap => nhietDo.innerText = snap.val());
+  dbRef2.on('value', snap => doAm.innerText = snap.val());
+//   ----------khí gas------------------------//
+  var dbRefGas = firebase.database().ref('security').child('Gas');
+  var lightBulb1 = document.getElementById("image_gas");
+  dbRefGas.on('value', snap => {
+    if (snap.val() == "OFF") {
+      lightBulb1.src = "image/FireOff.png";
+    } else if (snap.val() == "ON") {
+      lightBulb1.src = "image/FireOn.png";
+    }
+  });
+//   --------door--------------//
+  var dbRefdoor = firebase.database().ref('security').child('door');
+  var lightBulb2 = document.getElementById("image_door");
+  dbRefdoor.on('value', snap => {
+    if (snap.val() == "OFF") {
+      lightBulb2.src = "image/icons8-door-closed.png";
+    } else if (snap.val() == "ON") {
+      lightBulb2.src = "image/icons8-open-door.png";
+    }
+  });
+//   -----------lammmm state-----------//
+var dbReflam = firebase.database().ref('security').child('lamm');
+  var lightBulb3 = document.getElementById("image_lamp");
+  dbReflam.on('value', snap => {
+    if (snap.val() == "OFF") {
+      lightBulb3.src = "image/light_off.png";
+    } else if (snap.val() == "ON") {
+      lightBulb3.src = "image/light_on.png";
+    }
+  });
+
+</script>
+</body>
+</html>
